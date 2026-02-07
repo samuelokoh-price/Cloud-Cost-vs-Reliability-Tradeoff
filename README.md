@@ -81,6 +81,7 @@ The goal is to justify why the cheaper option was chosen at this stage, and defi
 - **Cost efficiency**: Single VM + single RDS keeps AWS bills low while still providing a working stack.
 - **Simplicity**: Easier to manage and troubleshoot during early project stages.
 - **Monitoring basics already enabled**: CloudWatch provides CPU, storage, and connection metrics without extra cost.
+- **Managed DB**: Enabled backups because data loss is worse than data loss
 
 ---
 
